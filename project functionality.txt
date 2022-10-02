@@ -5,8 +5,8 @@ User Management
 Role Management
 N-Tier Architecture
 JWT Authentication Token Generation
-Custom Filter for JWT
+Custom Filter for JWT Authentication
 Brute Force Attack Security
 Profile Picture Uploadation
-Custom Exception for every exception
-Custom Logging and file structuring for log files
+Custom Exception for every exceptions
+Custom Logging patterns and file structuring for log files
