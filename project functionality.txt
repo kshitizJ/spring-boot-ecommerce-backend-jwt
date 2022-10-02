@@ -1,0 +1,12 @@
+Best Folder Structure
+Code Reusablity
+Authentication Using WebConfiguration
+User Management
+Role Management
+N-Tier Architecture
+JWT Authentication Token Generation
+Custom Filter for JWT
+Brute Force Attack Security
+Profile Picture Uploadation
+Custom Exception for every exception
+Custom Logging and file structuring for log files
