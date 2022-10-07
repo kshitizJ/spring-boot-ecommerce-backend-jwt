@@ -1,5 +1,6 @@
 Best Folder Structure
 Code Reusablity
+Custom Spring boot banner
 Authentication Using WebConfiguration
 User Management
 Role Management
@@ -9,4 +10,7 @@ Custom Filter for JWT Authentication
 Brute Force Attack Security
 Profile Picture Uploadation
 Custom Exception for every exceptions
+Testing using JUnit5 library
 Custom Logging patterns and file structuring for log files
+Swagger for APIs Documentation
+Version Control using Git
