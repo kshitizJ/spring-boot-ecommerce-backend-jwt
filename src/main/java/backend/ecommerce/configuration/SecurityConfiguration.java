@@ -16,6 +16,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import backend.ecommerce.filter.JwtAccessDeniedHandler;
 import backend.ecommerce.filter.JwtAuthenticationEntryPoint;
@@ -24,6 +25,7 @@ import backend.ecommerce.filter.JwtAuthorizationFilter;
 // @EnableGlobalMethodSecurity will enable a security at method level
 
 @Configuration
+@EnableWebMvc
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
