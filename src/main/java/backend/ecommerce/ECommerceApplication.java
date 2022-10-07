@@ -30,7 +30,8 @@ public class ECommerceApplication {
 	@Bean
 	CommandLineRunner run(UserService userService) {
 		return args -> {
-			userService.addNewUser("Kshitiz", "Jain", "kshitizJ", "coolkshitiz@mail.com", "ROLE_SUPER_ADMIN", true,
+			userService.addNewUser("Kshitiz", "Jain", "kshitizJ", "coolkshitiz@mail.com",
+					"ROLE_SUPER_ADMIN", true,
 					true, null);
 		};
 	}
