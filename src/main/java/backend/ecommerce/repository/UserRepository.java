@@ -39,4 +39,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     Long countByIsNotLocked(Boolean isNotLocked);
 
+    @Query("select case when COUNT(u) > 0 then true else false end from User u where u.userId = ?1")
+    Boolean isUserExistById(String userId);
+
 }
